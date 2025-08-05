@@ -77,5 +77,5 @@ extra:
   analytics:
     provider: custom
     property: phc_Q7stlDDd5WU2m3lf8F1oiYyd5XPf3ggtnSYT6up6VlA
-    host: https://us.i.posthog.com
+    host: https://p.docs.consultar.io
 copyright: <span>Expanda Tecnologia da Informação LTDA.</span> <span>(CNPJ 42.515.236/0001-00)</span>
