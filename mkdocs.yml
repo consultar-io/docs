@@ -1,5 +1,5 @@
-site_name: Desenvolvedores - Consultar.io
-site_url: https://consultar.dev
+site_name: Documentação - Consultar.io
+site_url: https://docs.consultar.io
 theme:
   name: material
   custom_dir: overrides
