@@ -2,8 +2,7 @@
 
 ## Introdução
 
-Esta API permite consultar informações sobre Inscrições Municipais (IM) nas
-prefeituras de São Paulo (SP) e Rio de Janeiro (RJ).
+Esta API permite consultar informações sobre Inscrições Municipais (IM) na Prefeitura de São Paulo (SP).
 
 !!! warning "API em Beta"
 
