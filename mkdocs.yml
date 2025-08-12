@@ -66,6 +66,9 @@ nav:
       - CRO: endpoints/cro.md
       - CRBM: endpoints/crbm.md
       - CRF: endpoints/crf.md
+  - Endpoints Depreciados:
+      - Versão 1:
+          - Inscrição Estadual: endpoints-depreciados/v1/inscricao-estadual.md
   - Exemplos:
       - exemplos/index.md
       - Python: exemplos/python.md

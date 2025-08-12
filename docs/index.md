@@ -37,7 +37,7 @@ Consulte a documentação de cada endpoint para mais informações.
 
 ### Endpoints Depreciados
 
-- [Inscrição Estadual](./endpoints/v1/inscricao-estadual.md) (Depreciada)
+- [Inscrição Estadual](./endpoints-depreciados/v1/inscricao-estadual.md) (Depreciada)
 
 ## Exemplos
 

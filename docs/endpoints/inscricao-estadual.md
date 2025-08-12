@@ -181,7 +181,7 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 
 ## Histórico de Versões
 
-| Versão                | Alterações                                                                                                            | Documentação                           |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Versão 1 (Depreciada) | Versão inicial                                                                                                        | [Versão 1](./v1/inscricao-estadual.md) |
-| Versão 2 (Atual)      | Alteração para suportar resposta para CNPJ e CPF com multiplas inscrições na mesma UF. A API agora retorna uma lista. | [Versão 2](./inscricao-estadual.md)    |
+| Versão                | Alterações                                                                                                            | Documentação                                                  |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Versão 1 (Depreciada) | Versão inicial                                                                                                        | [Versão 1](../endpoints-depreciados/v1/inscricao-estadual.md) |
+| Versão 2 (Atual)      | Alteração para suportar resposta para CNPJ e CPF com multiplas inscrições na mesma UF. A API agora retorna uma lista. | [Versão 2](./inscricao-estadual.md)                           |
