@@ -1,4 +1,4 @@
-# Inscrição Estadual - Versão 2
+# IE - Inscrição Estadual (Versão 2)
 
 ## Introdução
 

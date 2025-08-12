@@ -1,4 +1,4 @@
-# Inscrição Estadual - Versão 1 (Em Depreciação)
+# IE - Inscrição Estadual (Versão 1)
 
 !!! warning "Em Depreciação"
 

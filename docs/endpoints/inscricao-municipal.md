@@ -1,4 +1,4 @@
-# Inscrição Municipal
+# IM - Inscrição Municipal (Em Beta)
 
 !!! warning "Em Beta"
 
