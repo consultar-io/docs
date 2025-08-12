@@ -71,33 +71,35 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 ##### Exemplo de Resposta de Sucesso (200) - Inscrição Estadual Única
 
 ```json
-{
-  "cnpj": "61585865150633",
-  "razao_social": "RAIA DROGASIL S/A",
-  "nome_fantasia": "",
-  "uf_ie": "SP",
-  "ie": "535612879117",
-  "tipo_ie": "IE NORMAL",
-  "situacao_ie": "HABILITADO",
-  "situacao_cnpj": "SEM RESTRIÇÃO",
-  "data_situacao_uf": "22/06/2016",
-  "data_inicio": "22/06/2016",
-  "data_fim": "",
-  "cnae_principal_codigo": "4771701",
-  "regime_tributacao": "NORMAL",
-  "ie_destinatario": "OBRIGATÓRIA",
-  "porte_empresa": "",
-  "credito_presumido": "",
-  "tipo_produtor": "NÃO",
-  "logradouro": "AVENIDA INDEPENDENCIA",
-  "numero": "2906",
-  "complemento": "",
-  "bairro": "ALEMAES",
-  "cep": "13416-240",
-  "uf": "SP",
-  "municipio_codigo": "3538709",
-  "municipio_descricao": "PIRACICABA"
-}
+[
+  {
+    "cnpj": "61585865150633",
+    "razao_social": "RAIA DROGASIL S/A",
+    "nome_fantasia": "",
+    "uf_ie": "SP",
+    "ie": "535612879117",
+    "tipo_ie": "IE NORMAL",
+    "situacao_ie": "HABILITADO",
+    "situacao_cnpj": "SEM RESTRIÇÃO",
+    "data_situacao_uf": "22/06/2016",
+    "data_inicio": "22/06/2016",
+    "data_fim": "",
+    "cnae_principal_codigo": "4771701",
+    "regime_tributacao": "NORMAL",
+    "ie_destinatario": "OBRIGATÓRIA",
+    "porte_empresa": "",
+    "credito_presumido": "",
+    "tipo_produtor": "NÃO",
+    "logradouro": "AVENIDA INDEPENDENCIA",
+    "numero": "2906",
+    "complemento": "",
+    "bairro": "ALEMAES",
+    "cep": "13416-240",
+    "uf": "SP",
+    "municipio_codigo": "3538709",
+    "municipio_descricao": "PIRACICABA"
+  }
+]
 ```
 
 ##### Exemplo de Resposta de Sucesso (200) - Múltiplas Inscrições Estaduais
@@ -177,6 +179,9 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
 
-## Versões Depreciadas
+## Histórico de Versões
 
-- [Versão 1](./v1/inscricao-estadual.md) (Depreciada)
+| Versão                | Alterações                                                                                                            | Documentação                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Versão 1 (Depreciada) | Versão inicial                                                                                                        | [Versão 1](./v1/inscricao-estadual.md) |
+| Versão 2 (Atual)      | Alteração para suportar resposta para CNPJ e CPF com multiplas inscrições na mesma UF. A API agora retorna uma lista. | [Versão 2](./inscricao-estadual.md)    |
