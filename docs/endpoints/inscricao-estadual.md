@@ -75,7 +75,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633' -H 'Authorization: Token <seu-token>'
 ```
 
-##### Exemplo de Resposta de Sucesso (200) - Inscrição Estadual Única
+##### Exemplo de Resposta de Sucesso (200) - CNPJ
 
 ```json
 [
@@ -109,7 +109,7 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 ]
 ```
 
-##### Exemplo de Resposta de Sucesso (200) - Múltiplas Inscrições Estaduais
+##### Exemplo de Resposta de Sucesso (200) - CPF
 
 ```json
 [
