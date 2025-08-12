@@ -1,8 +1,4 @@
-# Inscrição Estadual - Versão 1
-
-!!! warning "Versão 1 (Depreciada)"
-
-Essa versão da API está depreciada e será substituída pela [Versão 2](./v2/inscricao-estadual.md).
+# Inscrição Estadual
 
 ## Introdução
 
@@ -16,7 +12,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 
 #### Endpoint
 
-`GET /api/v1/ie/consultar`
+`GET /api/v2/ie/consultar`
 
 #### Requisição
 
@@ -72,7 +68,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633' -H 'Authorization: Token <seu-token>'
 ```
 
-##### Exemplo de Resposta de Sucesso (200)
+##### Exemplo de Resposta de Sucesso (200) - Inscrição Estadual Única
 
 ```json
 {
@@ -104,6 +100,67 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 }
 ```
 
+##### Exemplo de Resposta de Sucesso (200) - Múltiplas Inscrições Estaduais
+
+```json
+[
+  {
+    "cnpj": "35488964053",
+    "razao_social": "MIGUEL RICARDO CAVALCANTI",
+    "nome_fantasia": "FAZENDA DA CUNHA",
+    "uf_ie": "MT",
+    "ie": "698741950",
+    "tipo_ie": "IE DE PRODUTOR RURAL",
+    "situacao_ie": "HABILITADO",
+    "situacao_cnpj": "SEM RESTRIÇÃO",
+    "data_situacao_uf": "07/03/2005",
+    "data_inicio": "07/03/2005",
+    "data_fim": "",
+    "cnae_principal_codigo": "115600",
+    "regime_tributacao": "NORMAL",
+    "ie_destinatario": "OBRIGATÓRIA",
+    "porte_empresa": "",
+    "credito_presumido": "",
+    "tipo_produtor": "NÃO",
+    "logradouro": "RODOVIA MT 123 KM 456",
+    "numero": "SN",
+    "complemento": "",
+    "bairro": "ZONA RURAL",
+    "cep": "78467899",
+    "uf": "MT",
+    "municipio_codigo": "5105259",
+    "municipio_descricao": "LUCAS DO RIO VERDE"
+  },
+  {
+    "cnpj": "35488964053",
+    "razao_social": "MIGUEL RICARDO CAVALCANTI",
+    "nome_fantasia": "FAZENDA CARVALHO",
+    "uf_ie": "MT",
+    "ie": "292692800",
+    "tipo_ie": "IE DE PRODUTOR RURAL",
+    "situacao_ie": "HABILITADO",
+    "situacao_cnpj": "SEM RESTRIÇÃO",
+    "data_situacao_uf": "02/06/2011",
+    "data_inicio": "02/06/2011",
+    "data_fim": "",
+    "cnae_principal_codigo": "154700",
+    "regime_tributacao": "",
+    "ie_destinatario": "OBRIGATÓRIA",
+    "porte_empresa": "",
+    "credito_presumido": "",
+    "tipo_produtor": "NÃO",
+    "logradouro": "RODOVIA MT 345 KM 678",
+    "numero": "SN",
+    "complemento": "",
+    "bairro": "ZONA RURAL",
+    "cep": "78467899",
+    "uf": "MT",
+    "municipio_codigo": "5105259",
+    "municipio_descricao": "LUCAS DO RIO VERDE"
+  }
+]
+```
+
 ##### Exemplo de Resposta de Erro (404)
 
 ```json
@@ -119,3 +176,7 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
+
+## Versões Depreciadas
+
+- [Versão 1](./v1/inscricao-estadual.md) (Depreciada)

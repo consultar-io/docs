@@ -24,8 +24,6 @@ A API do [Consultar.io](https://consultar.io?utm_source=docs&utm_medium=referral
 
 Consulte a documentação de cada endpoint para mais informações.
 
-### Endpoints - API Versão 1
-
 - [CNPJ](./endpoints/cnpj.md)
 - [CPF](./endpoints/cpf.md)
 - [Inscrição Estadual](./endpoints/inscricao-estadual.md)
@@ -37,9 +35,9 @@ Consulte a documentação de cada endpoint para mais informações.
 - [CRBM](./endpoints/crbm.md)
 - [CRF](./endpoints/crf.md)
 
-### Endpoints - API Versão 2
+### Endpoints Depreciados
 
-- [Inscrição Estadual](./endpoints/v2/inscricao-estadual.md)
+- [Inscrição Estadual](./endpoints/v1/inscricao-estadual.md) (Depreciada)
 
 ## Exemplos
 
