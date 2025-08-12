@@ -4,11 +4,11 @@ Versão 1
 
 !!! warning "Em Depreciação"
 
-    A Versão 1 da API de Inscrição Estadual está em depreciação e será descontinuada em 28/02/2026. Migre para a [Versão 2](../../endpoints/inscricao-estadual.md).
+    Essa versão da API de Inscrição Estadual está em depreciação e será descontinuada em 28/02/2026. Migre para a [Versão 2](../../endpoints/inscricao-estadual.md).
 
 ## Introdução
 
-Esta API permite consultar informações sobre Inscrições Estaduais (IE) no CCC (SINTEGRA). A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
+Esta API permite consultar informações sobre Inscrições Estaduais (IE) no SINTEGRA/CCC. A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
 
 ## Endpoints
 

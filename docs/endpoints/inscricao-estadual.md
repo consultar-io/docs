@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esta API permite consultar informações sobre Inscrições Estaduais (IE) no CCC (SINTEGRA). A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
+Esta API permite consultar informações sobre Inscrições Estaduais (IE) no SINTEGRA/CCC. A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
 
 ## Histórico de Versões
 
