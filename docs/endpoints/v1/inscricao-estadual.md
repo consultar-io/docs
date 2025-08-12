@@ -1,8 +1,8 @@
-# Inscrição Estadual - Versão 1 (Depreciada)
+# Inscrição Estadual
 
-!!! warning "Versão 1 (Depreciada)"
+!!! warning "Versão Depreciada"
 
-Essa versão da API está depreciada e será substituída pela [Versão 2](../v2/inscricao-estadual.md).
+    Essa versão da API está depreciada e será substituída pela [Versão 2](../v2/inscricao-estadual.md).
 
 ## Introdução
 
