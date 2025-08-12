@@ -12,6 +12,7 @@ theme:
     - navigation.footer
     - navigation.expand
     - navigation.indexes
+    - navigation.path
   icon:
     admonition:
       note: octicons/tag-16
@@ -67,8 +68,7 @@ nav:
       - CRBM: endpoints/crbm.md
       - CRF: endpoints/crf.md
   - Depreciação:
-      - Versão 1:
-          - Inscrição Estadual: depreciacao/v1/inscricao-estadual.md
+      - Inscrição Estadual - Versão 1: depreciacao/v1/inscricao-estadual.md
   - Exemplos:
       - exemplos/index.md
       - Python: exemplos/python.md
