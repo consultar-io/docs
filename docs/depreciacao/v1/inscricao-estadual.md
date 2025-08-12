@@ -1,8 +1,8 @@
 # Inscrição Estadual
 
-!!! warning "Versão Depreciada"
+!!! warning "Em Depreciação"
 
-    A Versão 1 desse endpoint está depreciada e será descontinuada em 28/02/2026. Migre para a [Versão 2](../../endpoints/inscricao-estadual.md).
+    A Versão 1 da API de Inscrição Estadual está em depreciação e será descontinuada em 28/02/2026. Migre para a [Versão 2](../../endpoints/inscricao-estadual.md).
 
 ## Introdução
 

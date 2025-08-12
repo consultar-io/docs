@@ -35,9 +35,11 @@ Consulte a documentação de cada endpoint para mais informações.
 - [CRBM](./endpoints/crbm.md)
 - [CRF](./endpoints/crf.md)
 
-### Endpoints Depreciados
+### Depreciação
 
-- [Inscrição Estadual](./endpoints-depreciados/v1/inscricao-estadual.md) (Depreciada)
+#### Versão 1
+
+- [Inscrição Estadual](./depreciacao/v1/inscricao-estadual.md) (Em Depreciação)
 
 ## Exemplos
 
