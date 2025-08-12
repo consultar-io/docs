@@ -1,4 +1,4 @@
-# Inscrição Estadual
+# Inscrição Estadual - Versão 2
 
 ## Introdução
 
@@ -8,8 +8,8 @@ Esta API permite consultar informações sobre Inscrições Estaduais (IE) no CC
 
 | Versão                                              | Início da Depreciação | Data de Descontinuação | Status                                | Alteração                                                                                                         |
 | --------------------------------------------------- | --------------------- | ---------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Versão 2                                            | -                     | -                      | Em Produção                           | Alteração para suportar resposta de CNPJ e CPF com múltiplas inscrições na mesma UF. O retorno agora é uma lista. |
 | [Versão 1](../depreciacao/v1/inscricao-estadual.md) | 12/08/2025            | 28/02/2026             | Em Depreciação (Período de Transição) | Versão inicial.                                                                                                   |
-| [Versão 2](./inscricao-estadual.md)                 | -                     | -                      | Em Produção                           | Alteração para suportar resposta de CNPJ e CPF com múltiplas inscrições na mesma UF. O retorno agora é uma lista. |
 
 ## Endpoints
 

@@ -1,4 +1,6 @@
-# Inscrição Estadual
+# Inscrição Estadual - Versão 1 (Em Depreciação)
+
+Versão 1
 
 !!! warning "Em Depreciação"
 
