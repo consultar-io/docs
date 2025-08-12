@@ -1,8 +1,8 @@
 # Inscrição Estadual
 
-!!! warning "Versão Depreciada"
+!!! warning "Endpoint Depreciado"
 
-    Essa versão da API está depreciada e será substituída pela [Versão 2](../../endpoints/inscricao-estadual.md).
+    Esse endpoint está depreciado e será substituído pela [Versão 2](../../endpoints/inscricao-estadual.md).
 
 ## Introdução
 
@@ -120,6 +120,6 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
 
-!!! warning "Versão Depreciada"
+!!! warning "Endpoint Depreciado"
 
-    Essa versão da API está depreciada e será substituída pela [Versão 2](../../endpoints/inscricao-estadual.md).
+    Esse endpoint está depreciado e será substituído pela [Versão 2](../../endpoints/inscricao-estadual.md).
