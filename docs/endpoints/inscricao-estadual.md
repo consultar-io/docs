@@ -4,6 +4,13 @@
 
 Esta API permite consultar informações sobre Inscrições Estaduais (IE) no CCC (SINTEGRA). A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
 
+## Histórico de Versões
+
+| Versão                                                        | Início da Depreciação | Data de Descontinuação | Status                                | Alterações                                                                                                        |
+| ------------------------------------------------------------- | --------------------- | ---------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [Versão 1](../endpoints-depreciados/v1/inscricao-estadual.md) | 12/08/2025            | 28/02/2026             | Em Depreciação (Período de Transição) | Versão inicial.                                                                                                   |
+| [Versão 2](./inscricao-estadual.md)                           | -                     | -                      | Em Produção                           | Alteração para suportar resposta de CNPJ e CPF com múltiplas inscrições na mesma UF. O retorno agora é uma lista. |
+
 ## Endpoints
 
 ### 1. Consultar
@@ -178,10 +185,3 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
-
-## Histórico de Versões
-
-| Versão                                                        | Início da Depreciação | Data de Descontinuação | Status                                | Alterações                                                                                                        |
-| ------------------------------------------------------------- | --------------------- | ---------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| [Versão 1](../endpoints-depreciados/v1/inscricao-estadual.md) | 12/08/2025            | 28/02/2026             | Em Depreciação (Período de Transição) | Versão inicial.                                                                                                   |
-| [Versão 2](./inscricao-estadual.md)                           | -                     | -                      | Em Produção                           | Alteração para suportar resposta de CNPJ e CPF com múltiplas inscrições na mesma UF. O retorno agora é uma lista. |
