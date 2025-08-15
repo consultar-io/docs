@@ -19,4 +19,4 @@ Consulte a documentação de cada endpoint para mais informações.
 
 ### Em Depreciação
 
-- [Inscrição Estadual - Versão 1](./depreciacao/v1/inscricao-estadual.md) (Em Depreciação)
+- [Inscrição Estadual - Versão 1](../depreciacao/v1/inscricao-estadual.md) (Em Depreciação)
