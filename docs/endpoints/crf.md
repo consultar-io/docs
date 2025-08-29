@@ -1,4 +1,4 @@
-# CRF - Conselho Regional de Farmácia (Em Beta)
+# CRF - Conselho Regional de Farmácia
 
 ## Introdução
 
