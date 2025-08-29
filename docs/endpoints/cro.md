@@ -157,8 +157,8 @@ curl -X GET 'https://consultar.io/api/v1/cro/buscar?nome_razao_social=joao%20sil
 
 ## Limites e Considerações
 
-- Cada requisição de "Consultar" consome 1 crédito
-- Cada requisição de "Buscar por Nome" consome 1 crédito
+- Cada requisição "Consultar" consome 1 crédito
+- Cada requisição "Buscar por Nome" consome 1 crédito
 - Limite máximo de 100 resultados na "Busca por Nome"
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança

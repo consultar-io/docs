@@ -82,7 +82,7 @@ curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=sp&numero_registro=123
 
 ## Limites e Considerações
 
-- Cada requisição de "Consultar" consome 1 crédito
+- Cada requisição consome 1 crédito
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
