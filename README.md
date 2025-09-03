@@ -1,4 +1,4 @@
-# Documentação da API do Consultar IO
+# Documentação da API do Consultar.IO
 
 - [Consulta de CNPJ](https://docs.consultar.io/endpoints/cnpj?utm_source=github&utm_medium=readme&utm_campaign=docs)
 - [Consulta de CPF](https://docs.consultar.io/endpoints/cpf?utm_source=github&utm_medium=readme&utm_campaign=docs)
