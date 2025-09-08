@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+
 {% block extrahead %}
     {% set title = config.site_name %}
     {% if page and page.meta and page.meta.title %}
@@ -7,7 +9,6 @@
     {% endif %}
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title }}" />
-    <meta property="og:description" content="{{ config.site_description }}" />
     <meta property="og:url" content="{{ page.canonical_url }}" />
     <meta property="og:site_name" content="Consultar.IO" />
     <script type="application/ld+json">
