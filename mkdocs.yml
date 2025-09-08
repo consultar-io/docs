@@ -1,4 +1,5 @@
 site_name: Documentação - Consultar.IO
+site_description: Documentação da API do Consultar.IO
 site_url: https://docs.consultar.io
 theme:
   name: material
@@ -28,6 +29,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 markdown_extensions:
+  - meta
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

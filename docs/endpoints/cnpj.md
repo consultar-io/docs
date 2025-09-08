@@ -1,3 +1,9 @@
+---
+title: Consulta de CNPJ
+description: API para consultar dados de empresas e estabelecimentos do CNPJ brasileiro
+keywords: CNPJ, empresa, estabelecimento, consulta, API, Brasil
+---
+
 # CNPJ - Cadastro Nacional de Pessoa Jurídica
 
 ## Introdução
