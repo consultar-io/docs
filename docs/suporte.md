@@ -1,6 +1,3 @@
 # Suporte
 
-Se você já tem uma conta no **Consultar.IO**, entre em contato com o suporte
-através da página: [Suporte](https://consultar.io/painel/ajuda/?utm_source=docs&utm_medium=referral&utm_campaign=suporte).
-
-Se você ainda não tem uma conta, entre em contato na página: [Contato](https://consultar.io/contato/?utm_source=docs&utm_medium=referral&utm_campaign=suporte).
+Entre em contato através da página: [Contato](https://consultar.io/contato/?utm_source=docs&utm_medium=referral&utm_campaign=suporte)
