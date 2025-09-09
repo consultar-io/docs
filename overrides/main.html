@@ -10,13 +10,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:url" content="{{ page.canonical_url }}" />
-    <meta property="og:site_name" content="Consultar.IO" />
+    <meta property="og:site_name" content="{{ config.site_name }}" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Consultar.IO",
-            "alternateName": "{{ config.site_name }}",
+            "name": "{{ config.site_name }}",
+            "alternateName": ["Documentação Consultar IO", "Documentação - Consultar.IO", "Consultar.IO", "Consultar IO"],
             "url": "https://consultar.io"
         }
     </script>
