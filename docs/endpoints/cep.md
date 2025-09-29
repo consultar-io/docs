@@ -33,6 +33,8 @@ Consulta detalhes de um CEP específico.
 | `localidade` | Texto | Nome da cidade | `"São Paulo"` |
 | `bairro` | Texto | Nome do bairro | `"Cidade Monções"` |
 | `logradouro` | Texto | Nome do logradouro | `"Avenida Engenheiro Luiz Carlos Berrini"` |
+| `latitude` | Número | Latitude aproximada | `-23,6004352` |
+| `longitude` | Número | Longitude aproximada | `-46,6910367` |
 
 ### Erros
 
@@ -59,7 +61,9 @@ curl -X GET 'https://consultar.io/api/v1/cep/consultar?cep=04571000' -H 'Authori
   "uf": "SP",
   "localidade": "São Paulo",
   "bairro": "Cidade Monções",
-  "logradouro": "Avenida Engenheiro Luiz Carlos Berrini"
+  "logradouro": "Avenida Engenheiro Luiz Carlos Berrini",
+  "latitude": -23.6004352,
+  "longitude": -46.6910367
 }
 ```
 
