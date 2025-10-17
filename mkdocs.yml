@@ -1,0 +1,107 @@
+site_name: Documentação - Consultar.IO
+site_description: Documentação da API do Consultar.IO
+site_url: https://docs.consultar.io
+theme:
+  name: material
+  custom_dir: overrides
+  language: pt
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
+  palette:
+    scheme: slate
+    primary: black
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+markdown_extensions:
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        "cnpj.md": "api/cnpj.md"
+        "cpf.md": "api/cpf.md"
+        "inscricao-estadual.md": "api/inscricao-estadual.md"
+        "inscricao-municipal.md": "api/inscricao-municipal.md"
+        "cep.md": "api/cep.md"
+        "geocodificacao.md": "api/geocodificacao.md"
+        "api/latitude-longitude.md": "api/geocodificacao.md"
+        "latitude-longitude.md": "api/geocodificacao.md"
+        "crm.md": "api/crm.md"
+        "cro.md": "api/cro.md"
+        "crbm.md": "api/crbm.md"
+        "crf.md": "api/crf.md"
+        "crp.md": "api/crp.md"
+        "endpoints/cnpj.md": "api/cnpj.md"
+        "endpoints/cpf.md": "api/cpf.md"
+        "endpoints/inscricao-estadual.md": "api/inscricao-estadual.md"
+        "endpoints/inscricao-municipal.md": "api/inscricao-municipal.md"
+        "endpoints/cep.md": "api/cep.md"
+        "endpoints/geocodificacao.md": "api/geocodificacao.md"
+        "endpoints/latitude-longitude.md": "api/geocodificacao.md"
+        "endpoints/crm.md": "api/crm.md"
+        "endpoints/cro.md": "api/cro.md"
+        "endpoints/crbm.md": "api/crbm.md"
+        "endpoints/crf.md": "api/crf.md"
+        "endpoints/crp.md": "api/crp.md"
+        "endpoints/index.md": "index.md"
+        "api/index.md": "index.md"
+nav:
+  - Introdução: index.md
+  - Ambientes: ambientes.md
+  - Autenticação: autenticacao.md
+  - APIs:
+      - API CNPJ: api/cnpj.md
+      - API CPF: api/cpf.md
+      - API Inscrição Estadual: api/inscricao-estadual.md
+      - API Inscrição Municipal: api/inscricao-municipal.md
+      - API CEP: api/cep.md
+      - API Geocodificação: api/geocodificacao.md
+      - API CRM: api/crm.md
+      - API CRO: api/cro.md
+      - API CRBM: api/crbm.md
+      - API CRF: api/crf.md
+      - API CRP: api/crp.md
+  - Depreciação:
+      - API Inscrição Estadual (v1): depreciacao/v1/inscricao-estadual.md
+      - API CEP (v1): depreciacao/v1/cep.md
+      - API Geocodificação (v1): depreciacao/v1/geocodificacao.md
+  - Exemplos:
+      - exemplos/index.md
+      - Python: exemplos/python.md
+  - Suporte: suporte.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/consultar-io/
+  analytics:
+    provider: custom
+    property: phc_Q7stlDDd5WU2m3lf8F1oiYyd5XPf3ggtnSYT6up6VlA
+    host: https://p.docs.consultar.io
+copyright: <span>Expanda Tecnologia da Informação LTDA.</span> <span>(CNPJ 42.515.236/0001-00)</span>
