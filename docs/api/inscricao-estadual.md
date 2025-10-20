@@ -1,14 +1,16 @@
 ---
 title: API Inscrição Estadual
-description: Web Service para consultar dados de Inscrições Estaduais no SINTEGRA/CCC
-keywords: API, Web Service, REST, JSON, Inscrição Estadual, SINTEGRA, CCC, SEFAZ, IE, Consulta, API, Brasil
+description: Web Service para consultar dados de Inscrições Estaduais no SINTEGRA
+keywords: API, Web Service, REST, JSON, Inscrição Estadual, IE, SINTEGRA, SEFAZ, Produtor Rural, Produtores Rurais, CNPJ, CPF
 ---
 
 # API Inscrição Estadual (Versão 2)
 
 ## Introdução
 
-Esta API permite consultar informações sobre Inscrições Estaduais no SINTEGRA/CCC/SEFAZ. A consulta pode ser realizada utilizando o CNPJ ou CPF do contribuinte, juntamente com a UF.
+Esta API permite consultar informações sobre Inscrições Estaduais no SINTEGRA. A consulta de Inscrições Estaduais é realizada pelo CNPJ ou CPF do contribuinte, juntamente com a UF.
+
+Também é possível consultar informações de Produtores Rurais pelo CPF.
 
 ## API Consultar Inscrição Estadual (Consultar pelo CNPJ ou CPF)
 
