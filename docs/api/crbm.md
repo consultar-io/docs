@@ -22,18 +22,18 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `regiao` | Texto | Sim | Região do CRBM | `01` |
+| `regiao` | Texto | Sim | Região do CRBM (01 até 06) | `01` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `123456` |
 
 ### Resposta
 
-| Parâmetro | Tipo | Descrição | Exemplo |
-| --- | --- | --- | --- |
-| `regiao` | Texto | Região do CRBM | `01` |
-| `numero_registro` | Texto | Número do registro | `123456` |
-| `categoria` | Texto | Categoria do profissional | `BIOMÉDICO` |
-| `nome_razao_social` | Texto | Nome ou razão social do profissional | `JOÃO SILVA` |
-| `situacao` | Texto | Situação do registro | `ATIVO` |
+| Parâmetro           | Tipo  | Descrição                 | Exemplo      |
+| ------------------- | ----- | ------------------------- | ------------ |
+| `regiao`            | Texto | Região do CRBM            | `01`         |
+| `numero_registro`   | Texto | Número do registro        | `123456`     |
+| `categoria`         | Texto | Categoria do profissional | `BIOMÉDICO`  |
+| `nome_razao_social` | Texto | Nome do profissional      | `JOÃO SILVA` |
+| `situacao`          | Texto | Situação do registro      | `ATIVO`      |
 
 ### Erros
 
@@ -88,16 +88,16 @@ Realiza busca de profissionais pelo nome.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| nome_razao_social | Texto | Sim | Nome ou razão social do profissional | `joao silva` |
+| nome_razao_social | Texto | Sim | Nome do profissional | `joao silva` |
 
 ### Resposta
 
-| Parâmetro | Tipo | Descrição | Exemplo |
-| --- | --- | --- | --- |
-| regiao | Texto | Região do CRBM | `01` |
-| numero_registro | Texto | Número do registro | `123456` |
-| categoria | Texto | Categoria do profissional | `BIOMÉDICO` |
-| nome_razao_social | Texto | Nome ou razão social do profissional | `JOÃO SILVA` |
+| Parâmetro         | Tipo  | Descrição                 | Exemplo      |
+| ----------------- | ----- | ------------------------- | ------------ |
+| regiao            | Texto | Região do CRBM            | `01`         |
+| numero_registro   | Texto | Número do registro        | `123456`     |
+| categoria         | Texto | Categoria do profissional | `BIOMÉDICO`  |
+| nome_razao_social | Texto | Nome do profissional      | `JOÃO SILVA` |
 
 ### Erros
 
