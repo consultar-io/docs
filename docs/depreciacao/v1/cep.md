@@ -30,24 +30,27 @@ Consulta detalhes de um CEP específico.
 
 ### Resposta
 
-| Campo | Tipo | Descrição | Exemplo |
-| --- | --- | --- | --- |
-| `cep` | Texto | CEP do endereço sem formatação | `"12345678"` |
-| `uf` | Texto | Unidade Federativa do endereço | `"SP"` |
-| `localidade` | Texto | Município do endereço | `"São Paulo"` |
-| `bairro` | Texto | Bairro do endereço | `"Exemplo"` |
-| `logradouro` | Texto | Logradouro do endereço | `"Rua Exemplo"` |
-| `latitude` | Número | Não disponível | `null` |
-| `longitude` | Número | Não disponível | `null` |
+| Campo        | Tipo   | Descrição                      | Exemplo         |
+| ------------ | ------ | ------------------------------ | --------------- |
+| `cep`        | Texto  | CEP do endereço sem formatação | `"12345678"`    |
+| `uf`         | Texto  | Unidade Federativa do endereço | `"SP"`          |
+| `localidade` | Texto  | Município do endereço          | `"São Paulo"`   |
+| `bairro`     | Texto  | Bairro do endereço             | `"Exemplo"`     |
+| `logradouro` | Texto  | Logradouro do endereço         | `"Rua Exemplo"` |
+| `latitude`   | Número | Não disponível                 | `null`          |
+| `longitude`  | Número | Não disponível                 | `null`          |
 
 ### Erros
 
-| Código HTTP | Erro | Mensagem |
-| --- | --- | --- |
-| `400` | `REQUISICAO_INVALIDA` |  |
-| `403` | `PLANO_INATIVO` | `Plano inativo para realizar consultas.` |
-| `403` | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.` |
-| `404` | `NAO_ENCONTRADO` | `Nenhum registro encontrado com os parâmetros informados.` |
+| Código HTTP | Erro                     |
+| ----------- | ------------------------ |
+| `400`       | `REQUISICAO_INVALIDA`    |
+| `403`       | `PLANO_INATIVO`          |
+| `403`       | `CREDITOS_INSUFICIENTES` |
+| `404`       | `NAO_ENCONTRADO`         |
+| `500`       | `ERRO`                   |
+| `500`       | `ERRO_INTERNO`           |
+| `503`       | `SERVICO_INDISPONIVEL`   |
 
 ### Exemplos
 

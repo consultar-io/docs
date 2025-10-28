@@ -38,12 +38,15 @@ Consulta as coordenadas geográficas de um endereço específico.
 
 ### Erros
 
-| Código HTTP | Erro | Mensagem |
-| --- | --- | --- |
-| `400` | `REQUISICAO_INVALIDA` |  |
-| `403` | `PLANO_INATIVO` | `Plano inativo para realizar consultas.` |
-| `403` | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.` |
-| `404` | `NAO_ENCONTRADO` | `Nenhum registro encontrado com os parâmetros informados.` |
+| Código HTTP | Erro                     |
+| ----------- | ------------------------ |
+| `400`       | `REQUISICAO_INVALIDA`    |
+| `403`       | `PLANO_INATIVO`          |
+| `403`       | `CREDITOS_INSUFICIENTES` |
+| `404`       | `NAO_ENCONTRADO`         |
+| `500`       | `ERRO`                   |
+| `500`       | `ERRO_INTERNO`           |
+| `503`       | `SERVICO_INDISPONIVEL`   |
 
 ### Exemplos
 
@@ -57,13 +60,13 @@ curl -X GET 'https://consultar.io/api/v2/geocodificacao/consultar?endereco=RUA+E
 
 ```json
 {
-    "licencas": "https://consultar.io/licencas",
-    "logradouro": "Rua Exemplo",
-    "bairro": "Exemplo",
-    "localidade": "São Paulo",
-    "uf": "SP",
-    "latitude": -23.1234567,
-    "longitude": -46.1234567
+  "licencas": "https://consultar.io/licencas",
+  "logradouro": "Rua Exemplo",
+  "bairro": "Exemplo",
+  "localidade": "São Paulo",
+  "uf": "SP",
+  "latitude": -23.1234567,
+  "longitude": -46.1234567
 }
 ```
 
@@ -120,13 +123,13 @@ curl -X GET 'https://consultar.io/api/v2/geocodificacao/reversa/consultar?coorde
 
 ```json
 {
-    "licencas": "https://consultar.io/licencas",
-    "logradouro": "Rua Exemplo",
-    "bairro": "Exemplo",
-    "localidade": "São Paulo",
-    "uf": "SP",
-    "latitude": -23.1234567,
-    "longitude": -46.1234567
+  "licencas": "https://consultar.io/licencas",
+  "logradouro": "Rua Exemplo",
+  "bairro": "Exemplo",
+  "localidade": "São Paulo",
+  "uf": "SP",
+  "latitude": -23.1234567,
+  "longitude": -46.1234567
 }
 ```
 

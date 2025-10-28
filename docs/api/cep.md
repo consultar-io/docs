@@ -30,7 +30,7 @@ Consulta detalhes de um CEP específico.
 | --- | --- | --- | --- |
 | `cep` | Texto | CEP do endereço sem formatação | `"12345678"` |
 | `cep_formatado` | Texto | CEP do endereço com formatação | `"12345-678"` |
-| `tipo` | Texto | Tipo de endereço  | `"Logradouro"` |
+| `tipo` | Texto | Tipo de endereço | `"Logradouro"` |
 | `caixa_postal` | Booleano | Indicador para caixa postal | `false` |
 | `nome` | Texto | Nome do endereço (se aplicável) | `null` |
 | `nome_abreviado` | Texto | Nome abreviado do endereço (se aplicável) | `null` |
@@ -43,15 +43,17 @@ Consulta detalhes de um CEP específico.
 | `localidade` | Texto | Município, distrito ou povoado do endereço | `"São Paulo"` |
 | `uf` | Texto | Unidade Federativa do endereço | `"SP"` |
 
-
 ### Erros
 
-| Código HTTP | Erro | Mensagem |
-| --- | --- | --- |
-| `400` | `REQUISICAO_INVALIDA` |  |
-| `403` | `PLANO_INATIVO` | `Plano inativo para realizar consultas.` |
-| `403` | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.` |
-| `404` | `NAO_ENCONTRADO` | `Nenhum registro encontrado com os parâmetros informados.` |
+| Código HTTP | Erro                     |
+| ----------- | ------------------------ |
+| `400`       | `REQUISICAO_INVALIDA`    |
+| `403`       | `PLANO_INATIVO`          |
+| `403`       | `CREDITOS_INSUFICIENTES` |
+| `404`       | `NAO_ENCONTRADO`         |
+| `500`       | `ERRO`                   |
+| `500`       | `ERRO_INTERNO`           |
+| `503`       | `SERVICO_INDISPONIVEL`   |
 
 ### Exemplos
 
@@ -65,20 +67,20 @@ curl -X GET 'https://consultar.io/api/v2/cep/consultar?cep=12345678' -H 'Authori
 
 ```json
 {
-    "cep": "12345678",
-    "cep_formatado": "12345-678",
-    "tipo": "Logradouro",
-    "caixa_postal": false,
-    "nome": null,
-    "nome_abreviado": null,
-    "tipo_logradouro": "Rua",
-    "nome_logradouro": "Exemplo",
-    "logradouro": "Rua Exemplo",
-    "complemento": null,
-    "bairro": "Exemplo",
-    "bairro_abreviado": "Exemplo",
-    "localidade": "São Paulo",
-    "uf": "SP"
+  "cep": "12345678",
+  "cep_formatado": "12345-678",
+  "tipo": "Logradouro",
+  "caixa_postal": false,
+  "nome": null,
+  "nome_abreviado": null,
+  "tipo_logradouro": "Rua",
+  "nome_logradouro": "Exemplo",
+  "logradouro": "Rua Exemplo",
+  "complemento": null,
+  "bairro": "Exemplo",
+  "bairro_abreviado": "Exemplo",
+  "localidade": "São Paulo",
+  "uf": "SP"
 }
 ```
 
@@ -105,8 +107,8 @@ Consulta detalhes de um CEP específico.
 
 ### Requisição
 
-| Parâmetro | Tipo  | Obrigatório | Descrição                   | Exemplo    |
-| --------- | ----- | ----------- | --------------------------- | ---------- |
+| Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
+| --- | --- | --- | --- | --- |
 | `logradouro` | Texto | Não | Logradouro do endereço | `"Rua Exemplo"` |
 | `localidade` | Texto | Sim | Município do endereço | `"São Paulo"` |
 | `uf` | Texto | Sim | Unidade Federativa do endereço | `"SP"` |
@@ -130,15 +132,17 @@ Consulta detalhes de um CEP específico.
 | `localidade` | Texto | Município, distrito ou povoado do endereço | `"São Paulo"` |
 | `uf` | Texto | Unidade Federativa do endereço | `"SP"` |
 
-
 ### Erros
 
-| Código HTTP | Erro | Mensagem |
-| --- | --- | --- |
-| `400` | `REQUISICAO_INVALIDA` |  |
-| `403` | `PLANO_INATIVO` | `Plano inativo para realizar consultas.` |
-| `403` | `CREDITOS_INSUFICIENTES` | `Sem créditos suficientes para consulta.` |
-| `404` | `NAO_ENCONTRADO` | `Nenhum registro encontrado com os parâmetros informados.` |
+| Código HTTP | Erro                     |
+| ----------- | ------------------------ |
+| `400`       | `REQUISICAO_INVALIDA`    |
+| `403`       | `PLANO_INATIVO`          |
+| `403`       | `CREDITOS_INSUFICIENTES` |
+| `404`       | `NAO_ENCONTRADO`         |
+| `500`       | `ERRO`                   |
+| `500`       | `ERRO_INTERNO`           |
+| `503`       | `SERVICO_INDISPONIVEL`   |
 
 ### Exemplos
 
@@ -152,22 +156,22 @@ curl -X GET 'https://consultar.io/api/v2/cep/buscar?logradouro=Rua%20Exemplo&loc
 
 ```json
 [
-    {
-        "cep": "12345678",
-        "cep_formatado": "12345-678",
-        "tipo": "Logradouro",
-        "caixa_postal": false,
-        "nome": null,
-        "nome_abreviado": null,
-        "tipo_logradouro": "Rua",
-        "nome_logradouro": "Exemplo",
-        "logradouro": "Rua Exemplo",
-        "complemento": null,
-        "bairro": "Exemplo",
-        "bairro_abreviado": "Exemplo",
-        "localidade": "São Paulo",
-        "uf": "SP"
-    }
+  {
+    "cep": "12345678",
+    "cep_formatado": "12345-678",
+    "tipo": "Logradouro",
+    "caixa_postal": false,
+    "nome": null,
+    "nome_abreviado": null,
+    "tipo_logradouro": "Rua",
+    "nome_logradouro": "Exemplo",
+    "logradouro": "Rua Exemplo",
+    "complemento": null,
+    "bairro": "Exemplo",
+    "bairro_abreviado": "Exemplo",
+    "localidade": "São Paulo",
+    "uf": "SP"
+  }
 ]
 ```
 
