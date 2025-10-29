@@ -28,6 +28,7 @@ Consulte a documentação de cada API para mais informações.
     - Consultar CPF (Consultar pelo CPF)
 - [API Inscrição Estadual](./api/inscricao-estadual.md)
     - Consultar Inscrição Estadual (Consultar pelo CNPJ ou CPF)
+    - Consultar Todas as IEs (Consultar em Todas as UFs)
 - [API Inscrição Municipal](./api/inscricao-municipal.md)
     - Consultar Inscrição Municipal (Consultar pelo CNPJ)
 - [API CEP](./api/cep.md)
