@@ -482,8 +482,8 @@ curl -X GET 'https://consultar.io/api/v2/ie/consultar/todas?cnpj=61585865150633'
 
 ## Limites e Considerações
 
-- Cada requisição "Consultar Inscrição Estadual" consome R$ 0,20 dos créditos
-- Cada requisição "Consultar Todas das IEs" consome R$ 5,40 dos créditos (R$ 0,20 por UF)
+- Cada requisição "Consultar IE por UF" consome R$ 0,20 dos créditos
+- Cada requisição "Consultar IE em Todas as UFs" consome R$ 5,40 dos créditos (R$ 0,20 por UF)
 - Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
