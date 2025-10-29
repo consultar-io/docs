@@ -92,18 +92,6 @@ Consulta detalhes de um CNPJ específico.
 | `lista_qsa.faixa_etaria_qsa_codigo` | Texto | Código da faixa etária do sócio/administrador | `"3"` |
 | `lista_qsa.faixa_etaria_qsa_descricao` | Texto | Descrição da faixa etária do sócio/administrador | `"21-30"` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -323,9 +311,22 @@ curl -X GET 'https://consultar.io/api/v1/cnpj/consultar?cnpj=42515236000100' -H 
 | `2`    | PF          |
 | `3`    | Estrangeiro |
 
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+
 ## Limites e Considerações
 
 - Cada requisição "Consultar CNPJ" consome R$ 0,20 dos créditos
+- Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte

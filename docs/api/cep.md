@@ -43,18 +43,6 @@ Consulta detalhes de um CEP específico.
 | `localidade` | Texto | Município, distrito ou povoado do endereço | `"São Paulo"` |
 | `uf` | Texto | Unidade Federativa do endereço | `"SP"` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -134,15 +122,15 @@ Consulta detalhes de um CEP específico.
 
 ### Erros
 
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
+| Código | Erro                     |
+| ------ | ------------------------ |
+| `400`  | `REQUISICAO_INVALIDA`    |
+| `403`  | `PLANO_INATIVO`          |
+| `403`  | `CREDITOS_INSUFICIENTES` |
+| `404`  | `NAO_ENCONTRADO`         |
+| `500`  | `ERRO`                   |
+| `500`  | `ERRO_INTERNO`           |
+| `503`  | `SERVICO_INDISPONIVEL`   |
 
 ### Exemplos
 
@@ -184,10 +172,23 @@ curl -X GET 'https://consultar.io/api/v2/cep/buscar?logradouro=Rua%20Exemplo&loc
 }
 ```
 
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+
 ## Limites e Considerações
 
 - As requisições "Consultar CEP" não consomem créditos (por tempo indeterminado)
 - Cada requisição "Buscar CEP" consome R$ 0,05 dos créditos
+- Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Limite máximo de 1.000 resultados na requisição "Buscar CEP"
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança

@@ -40,18 +40,6 @@ Consulta detalhes de um CEP específico.
 | `latitude`   | Número | Não disponível                 | `null`          |
 | `longitude`  | Número | Não disponível                 | `null`          |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -82,6 +70,18 @@ curl -X GET 'https://consultar.io/api/v1/cep/consultar?cep=12345678' -H 'Authori
   "message": "Nenhum registro foi encontrado para os parâmetros informados."
 }
 ```
+
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
 
 ## Observações
 

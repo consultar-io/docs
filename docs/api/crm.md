@@ -37,18 +37,6 @@ Consulta detalhes de um registro específico.
 | `tipo_inscricao` | Texto | Tipo de inscrição do profissional | `PRINCIPAL` |
 | `especialidades` | Texto | Lista de especialidades com seus respectivos RQE, separadas por vírgula (pode ser null) | `CLÍNICA MÉDICA - RQE Nº 74493, ENDOCRINOLOGIA E METABOLOGIA - RQE Nº 85498` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -103,18 +91,6 @@ Realiza busca de médicos pelo nome.
 | categoria | Texto | Categoria do profissional | `MÉDICO` |
 | nome_razao_social | Texto | Nome ou razão social do profissional | `JOÃO DA SILVA` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -151,10 +127,23 @@ curl -X GET 'https://consultar.io/api/v1/crm/buscar?nome_razao_social=joao%20sil
 }
 ```
 
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+
 ## Limites e Considerações
 
 - Cada requisição "Consultar CRM" consome R$ 0,20 dos créditos
 - Cada requisição "Buscar CRM" consome R$ 0,20 dos créditos
+- Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Limite máximo de 100 resultados na "Buscar CRM"
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança

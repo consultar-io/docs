@@ -36,18 +36,6 @@ Consulta as coordenadas geográficas de um endereço específico.
 | `latitude` | Número | Latitude do endereço | `-23.1234567` |
 | `longitude` | Número | Longitude do endereço | `-46.1234567` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -75,6 +63,18 @@ curl -X GET 'https://consultar.io/api/v1/geocodificacao/consultar?endereco=RUA+E
 }
 ```
 
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+
 ## Observações
 
 - Recomendamos informar pelo menos Logradouro, Número (se houver), Município e UF.
@@ -84,6 +84,7 @@ curl -X GET 'https://consultar.io/api/v1/geocodificacao/consultar?endereco=RUA+E
 ## Limites e Considerações
 
 - Cada requisição "Consultar Geocodificação" consome R$ 0,05 dos créditos
+- Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte

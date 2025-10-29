@@ -36,18 +36,6 @@ Consulta detalhes de um registro específico.
 | `nome_razao_social` | Texto | Nome ou razão social do profissional/estabelecimento | `JOÃO SILVA` |
 | `situacao` | Texto | Situação do registro | `ATIVO` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -101,18 +89,6 @@ Realiza busca de profissionais/estabelecimentos pelo nome.
 | categoria | Texto | Categoria do profissional/estabelecimento | `CIRURGIÃO-DENTISTA` |
 | nome_razao_social | Texto | Nome ou razão social do profissional/estabelecimento | `JOÃO SILVA` |
 
-### Erros
-
-| Código HTTP | Erro                     |
-| ----------- | ------------------------ |
-| `400`       | `REQUISICAO_INVALIDA`    |
-| `403`       | `PLANO_INATIVO`          |
-| `403`       | `CREDITOS_INSUFICIENTES` |
-| `404`       | `NAO_ENCONTRADO`         |
-| `500`       | `ERRO`                   |
-| `500`       | `ERRO_INTERNO`           |
-| `503`       | `SERVICO_INDISPONIVEL`   |
-
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
@@ -163,10 +139,23 @@ curl -X GET 'https://consultar.io/api/v1/cro/buscar?nome_razao_social=joao%20sil
 | `laboratorio` | Laboratório de Prótese Dentária |
 | `comercio-industria` | Comércio/Indústria de Produtos Odontológicos |
 
+## Códigos de Status (HTTP)
+
+| Código | Erro | Descrição |
+| --- | --- | --- |
+| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
+| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
+| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+
 ## Limites e Considerações
 
 - Cada requisição "Consultar CRO" consome R$ 0,20 dos créditos
 - Cada requisição "Buscar CRO" consome R$ 0,20 dos créditos
+- Somente as respostas com os códigos de status `200` e `404` consomem créditos
 - Limite máximo de 100 resultados na "Buscar CRO"
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
