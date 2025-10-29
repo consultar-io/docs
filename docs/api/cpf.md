@@ -22,14 +22,14 @@ Consulta detalhes de um CPF específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `cpf` | Texto | Sim | Número do CPF (apenas números) | `87135740009` |
+| `cpf` | Texto | Sim | Número do CPF (apenas números) | `12345678900` |
 | `data_nascimento` | Texto | Sim | Data de nascimento (AAAA-MM-DD) | `1990-01-01` |
 
 ### Resposta
 
 | Parâmetro | Tipo | Descrição | Exemplo |
 | --- | --- | --- | --- |
-| `cpf` | Texto | Número do CPF | `87135740009` |
+| `cpf` | Texto | Número do CPF | `12345678900` |
 | `nome` | Texto | Nome completo da pessoa | `MARIA DA SILVA` |
 | `data_nascimento` | Texto | Data de nascimento | `1990-01-01` |
 | `situacao` | Texto | Situação do CPF | `REGULAR` |
