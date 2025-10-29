@@ -12,7 +12,7 @@ Esta API permite consultar informações sobre Inscrições Estaduais no SINTEGR
 
 Também é possível consultar informações de Produtores Rurais pelo CPF.
 
-## API Consultar Inscrição Estadual (Consultar pelo CNPJ ou CPF)
+## API Consultar IE por UF (Consultar pelo CNPJ ou CPF)
 
 Consulta detalhes de uma Inscrição Estadual específica.
 
@@ -169,7 +169,7 @@ curl -X GET 'https://consultar.io/api/v2/ie/consultar?uf=SP&cnpj=61585865150633'
 }
 ```
 
-## API Consultar Todas das IEs (Consultar em Todas as UFs)
+## API Consultar IE em Todas as UFs (Consultar pelo CNPJ ou CPF)
 
 Consulta detalhes de todas as Inscrições Estaduais em todas as UFs.
 
