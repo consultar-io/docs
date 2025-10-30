@@ -131,15 +131,15 @@ curl -X GET 'https://consultar.io/api/v1/crm/buscar?nome_razao_social=joao%20sil
 
 ## Códigos de Status HTTP
 
-| Código | Erro | Descrição |
+| Código | Erro (error) | Descrição |
 | --- | --- | --- |
-| `400` | `REQUISICAO_INVALIDA` | Requisição inválida. Veja a mensagem para mais detalhes. |
-| `403` | `PLANO_INATIVO` | Plano inativo. |
-| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. |
+| `400` | `REQUISICAO_INVALIDA` | Veja a mensagem de erro (message) para mais detalhes. |
+| `403` | `PLANO_INATIVO` | Plano inativo. Faça uma Recarga. |
+| `403` | `CREDITOS_INSUFICIENTES` | Créditos insuficientes. Faça uma Recarga. |
 | `404` | `NAO_ENCONTRADO` | Registro não encontrado. |
-| `500` | `ERRO` | Aconteceu um erro durante a consulta. Veja a mensagem para mais detalhes. |
+| `500` | `ERRO` | Veja a mensagem de erro (message) para mais detalhes. |
 | `500` | `ERRO_INTERNO` | Ocorreu um erro inesperado no nosso sistema. |
-| `503` | `SERVICO_INDISPONIVEL` | Serviço está temporariamente indisponível. Veja a mensagem para mais detalhes. |
+| `503` | `SERVICO_INDISPONIVEL` | Veja a mensagem de erro (message) para mais detalhes. |
 
 ## Limites e Considerações
 
