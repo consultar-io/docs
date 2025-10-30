@@ -20,7 +20,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 
 ### Endpoint
 
-`GET /api/v1/ie/consultar`
+`GET https://consultar.io/api/v1/ie/consultar`
 
 ### Requisição
 

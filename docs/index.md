@@ -1,4 +1,4 @@
-# Documentação - Consultar.IO
+# APIs Consultar.IO - Documentação
 
 ## Introdução
 
@@ -17,10 +17,6 @@ Coleção do [Postman](https://www.postman.com/consultar-io/apis-consultar-io/ov
 ## Autenticação
 
 Consulte a documentação de [Autenticação](./autenticacao.md) para mais informações sobre o processo de autenticação.
-
-## Ambientes
-
-Consulte a documentação de [Ambientes](./ambientes.md) para mais informações sobre os ambientes disponíveis.
 
 ## APIs
 

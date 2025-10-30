@@ -20,7 +20,7 @@ Consulta as coordenadas geográficas de um endereço específico.
 
 ### Endpoint
 
-`GET /api/v1/geocodificacao/consultar`
+`GET https://consultar.io/api/v1/geocodificacao/consultar`
 
 ### Requisição
 

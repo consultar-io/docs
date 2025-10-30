@@ -18,7 +18,7 @@ Consulta detalhes de um CNPJ específico.
 
 ### Endpoint
 
-`GET /api/v1/cnpj/consultar`
+`GET https://consultar.io/api/v1/cnpj/consultar`
 
 ### Requisição
 

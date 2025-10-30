@@ -18,7 +18,7 @@ Consulta detalhes de um registro específico.
 
 ### Endpoint
 
-`GET /api/v1/crm/consultar`
+`GET https://consultar.io/api/v1/crm/consultar`
 
 ### Requisição
 
@@ -76,7 +76,7 @@ Realiza busca de médicos pelo nome.
 
 ### Endpoint
 
-`GET /api/v1/crm/buscar`
+`GET https://consultar.io/api/v1/crm/buscar`
 
 ### Requisição
 

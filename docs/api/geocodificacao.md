@@ -18,7 +18,7 @@ Consulta as coordenadas geográficas de um endereço específico.
 
 ### Endpoint
 
-`GET /api/v2/geocodificacao/consultar`
+`GET https://consultar.io/api/v2/geocodificacao/consultar`
 
 ### Requisição
 
@@ -81,7 +81,7 @@ Consulta o endereço a partir de coordenadas geográficas.
 
 ### Endpoint
 
-`GET /api/v2/geocodificacao/reversa/consultar`
+`GET https://consultar.io/api/v2/geocodificacao/reversa/consultar`
 
 ### Requisição
 

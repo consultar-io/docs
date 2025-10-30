@@ -1,5 +1,5 @@
-site_name: Documentação - Consultar.IO
-site_description: Documentação da API do Consultar.IO
+site_name: APIs Consultar.IO - Documentação
+site_description: Documentação das APIs do Consultar.IO
 site_url: https://docs.consultar.io
 theme:
   name: material
@@ -72,9 +72,9 @@ plugins:
         "endpoints/crp.md": "api/crp.md"
         "endpoints/index.md": "index.md"
         "api/index.md": "index.md"
+        "ambientes.md": "index.md"
 nav:
   - Introdução: index.md
-  - Ambientes: ambientes.md
   - Autenticação: autenticacao.md
   - APIs:
       - API CNPJ: api/cnpj.md

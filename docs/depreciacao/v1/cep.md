@@ -20,7 +20,7 @@ Consulta detalhes de um CEP específico.
 
 ### Endpoint
 
-`GET /api/v1/cep/consultar`
+`GET https://consultar.io/api/v1/cep/consultar`
 
 ### Requisição
 

@@ -18,7 +18,7 @@ Consulta detalhes de um CPF específico.
 
 ### Endpoint
 
-`GET /api/v1/cpf/consultar`
+`GET https://consultar.io/api/v1/cpf/consultar`
 
 ### Requisição
 

@@ -20,7 +20,7 @@ Consulta detalhes de uma Inscrição Estadual específica.
 
 ### Endpoint
 
-`GET /api/v2/ie/consultar`
+`GET https://consultar.io/api/v2/ie/consultar`
 
 ### Requisição
 
@@ -177,7 +177,7 @@ Consulta detalhes de todas as Inscrições Estaduais em todas as UFs.
 
 ### Endpoint
 
-`GET /api/v2/ie/consultar/todas`
+`GET https://consultar.io/api/v2/ie/consultar/todas`
 
 ### Requisição
 

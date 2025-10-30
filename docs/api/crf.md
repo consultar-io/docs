@@ -18,7 +18,7 @@ Consulta detalhes de um registro específico.
 
 ### Endpoint
 
-`GET /api/v1/crf/consultar`
+`GET https://consultar.io/api/v1/crf/consultar`
 
 ### Requisição
 

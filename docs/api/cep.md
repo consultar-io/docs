@@ -18,7 +18,7 @@ Consulta detalhes de um CEP específico.
 
 ### Endpoint
 
-`GET /api/v2/cep/consultar`
+`GET https://consultar.io/api/v2/cep/consultar`
 
 ### Requisição
 
@@ -93,7 +93,7 @@ Consulta detalhes de um CEP específico.
 
 ### Endpoint
 
-`GET /api/v2/cep/buscar`
+`GET https://consultar.io/api/v2/cep/buscar`
 
 ### Requisição
 
