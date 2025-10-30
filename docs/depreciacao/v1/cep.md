@@ -71,7 +71,7 @@ curl -X GET 'https://consultar.io/api/v1/cep/consultar?cep=12345678' -H 'Authori
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

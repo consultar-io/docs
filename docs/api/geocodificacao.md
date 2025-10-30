@@ -132,7 +132,7 @@ curl -X GET 'https://consultar.io/api/v2/geocodificacao/reversa/consultar?coorde
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

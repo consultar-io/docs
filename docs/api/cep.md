@@ -174,7 +174,7 @@ curl -X GET 'https://consultar.io/api/v2/cep/buscar?logradouro=Rua%20Exemplo&loc
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

@@ -108,7 +108,7 @@ curl -X GET 'https://consultar.io/api/v1/ie/consultar?uf=SP&cnpj=61585865150633'
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

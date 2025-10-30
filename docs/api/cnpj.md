@@ -313,7 +313,7 @@ curl -X GET 'https://consultar.io/api/v1/cnpj/consultar?cnpj=42515236000100' -H 
 | `2`    | PF          |
 | `3`    | Estrangeiro |
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

@@ -141,7 +141,7 @@ curl -X GET 'https://consultar.io/api/v1/cro/buscar?nome_razao_social=joao%20sil
 | `laboratorio` | Laboratório de Prótese Dentária |
 | `comercio-industria` | Comércio/Indústria de Produtos Odontológicos |
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

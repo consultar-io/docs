@@ -76,7 +76,7 @@ curl -X GET 'https://consultar.io/api/v1/cpf/consultar?cpf=12345678900&data_nasc
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

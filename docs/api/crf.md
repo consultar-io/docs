@@ -76,7 +76,7 @@ curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=sp&numero_registro=123
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

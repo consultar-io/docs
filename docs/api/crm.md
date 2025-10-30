@@ -129,7 +129,7 @@ curl -X GET 'https://consultar.io/api/v1/crm/buscar?nome_razao_social=joao%20sil
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |

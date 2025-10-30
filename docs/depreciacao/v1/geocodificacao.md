@@ -63,7 +63,7 @@ curl -X GET 'https://consultar.io/api/v1/geocodificacao/consultar?endereco=RUA+E
 }
 ```
 
-## Códigos de Status (HTTP)
+## Códigos de Status HTTP
 
 | Código | Erro | Descrição |
 | --- | --- | --- |
