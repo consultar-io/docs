@@ -48,7 +48,7 @@ Consulta detalhes de um registro específico.
 #### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=SP&cidade=SAO+PAULO&numero_registro=1234567' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=SP&cidade=SÃO+PAULO&numero_registro=1234567' -H 'Authorization: Token <seu-token>'
 ```
 
 #### Exemplo de Resposta de Sucesso (200)
