@@ -25,7 +25,8 @@ Consulta detalhes de um registro específico.
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
 | `uf` | Texto | Sim | UF do CRF | `SP` |
-| `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `12344` |
+| `cidade` | Texto | Não | Cidade do CRF | `SÃO PAULO` |
+| `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `1234567` |
 
 ### Resposta
 
@@ -39,15 +40,15 @@ Consulta detalhes de um registro específico.
 | `cidade` | Texto | Cidade do registro | `SÃO PAULO` |
 | `data_inscricao` | Texto | Data de inscrição (YYYY-MM-DD) | `2025-08-29` |
 | `data_inscricao_formatada` | Texto | Data de inscrição formatada (DD/MM/AAAA) | `29/08/2025` |
-| `cpf` | Texto | CPF do profissional | `15685971001` |
-| `cpf_formatado` | Texto | CPF do profissional formatado | `156.859.710-01` |
+| `cpf` | Texto | CPF do profissional (se informado) | `15685971001` |
+| `cpf_formatado` | Texto | CPF do profissional formatado (se informado) | `156.859.710-01` |
 
 ### Exemplos
 
 #### Exemplo de Requisição (cURL)
 
 ```bash
-curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=sp&numero_registro=12344' -H 'Authorization: Token <seu-token>'
+curl -X GET 'https://consultar.io/api/v1/crf/consultar?uf=SP&cidade=SAO+PAULO&numero_registro=1234567' -H 'Authorization: Token <seu-token>'
 ```
 
 #### Exemplo de Resposta de Sucesso (200)
