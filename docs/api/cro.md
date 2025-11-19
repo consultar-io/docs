@@ -24,7 +24,7 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `uf` | Texto | Sim | UF do CRO | `SP` |
+| `uf` | Texto | Sim | UF do registro | `SP` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `123456` |
 | `categoria` | Texto | Sim | Categoria do profissional/estabelecimento | `cd` |
 
@@ -32,7 +32,7 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Descrição | Exemplo |
 | --- | --- | --- | --- |
-| `uf` | Texto | UF do CRO | `SP` |
+| `uf` | Texto | UF do registro | `SP` |
 | `numero_registro` | Texto | Número do registro | `123456` |
 | `categoria` | Texto | Categoria do profissional/estabelecimento | `CIRURGIÃO-DENTISTA` |
 | `nome_razao_social` | Texto | Nome ou razão social do profissional/estabelecimento | `JOÃO SILVA` |

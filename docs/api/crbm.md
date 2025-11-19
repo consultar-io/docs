@@ -24,14 +24,14 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `regiao` | Texto | Sim | Região do CRBM (01 até 06) | `01` |
+| `regiao` | Texto | Sim | Região do registro (01 até 06) | `01` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `123456` |
 
 ### Resposta
 
 | Parâmetro           | Tipo  | Descrição                 | Exemplo      |
 | ------------------- | ----- | ------------------------- | ------------ |
-| `regiao`            | Texto | Região do CRBM            | `01`         |
+| `regiao`            | Texto | Região do registro        | `01`         |
 | `numero_registro`   | Texto | Número do registro        | `123456`     |
 | `categoria`         | Texto | Categoria do profissional | `BIOMÉDICO`  |
 | `nome_razao_social` | Texto | Nome do profissional      | `JOÃO SILVA` |
@@ -84,7 +84,7 @@ Realiza busca de profissionais pelo nome.
 
 | Parâmetro         | Tipo  | Descrição                 | Exemplo      |
 | ----------------- | ----- | ------------------------- | ------------ |
-| regiao            | Texto | Região do CRBM            | `01`         |
+| regiao            | Texto | Região do registro        | `01`         |
 | numero_registro   | Texto | Número do registro        | `123456`     |
 | categoria         | Texto | Categoria do profissional | `BIOMÉDICO`  |
 | nome_razao_social | Texto | Nome do profissional      | `JOÃO SILVA` |

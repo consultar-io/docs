@@ -24,17 +24,17 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `uf` | Texto | Sim | UF do CRM | `SP` |
+| `uf` | Texto | Sim | UF do registro | `SP` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `1234567` |
 
 ### Resposta
 
 | Parâmetro | Tipo | Descrição | Exemplo |
 | --- | --- | --- | --- |
-| `uf` | Texto | UF do CRM | `SP` |
+| `uf` | Texto | UF do registro | `SP` |
 | `numero_registro` | Texto | Número do registro | `1234567` |
 | `categoria` | Texto | Categoria do profissional | `MÉDICO` |
-| `nome_razao_social` | Texto | Nome ou razão social do profissional | `JOÃO DA SILVA` |
+| `nome_razao_social` | Texto | Nome do profissional | `JOÃO DA SILVA` |
 | `situacao` | Texto | Situação do registro | `APOSENTADO` |
 | `tipo_inscricao` | Texto | Tipo de inscrição do profissional | `PRINCIPAL` |
 | `especialidades` | Texto | Lista de especialidades com seus respectivos RQE, separadas por vírgula (pode ser null) | `CLÍNICA MÉDICA - RQE Nº 74493, ENDOCRINOLOGIA E METABOLOGIA - RQE Nº 85498` |

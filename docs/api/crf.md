@@ -24,18 +24,18 @@ Consulta detalhes de um registro específico.
 
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
-| `uf` | Texto | Sim | UF do CRF | `SP` |
-| `cidade` | Texto | Não | Cidade do CRF | `SÃO PAULO` |
+| `uf` | Texto | Sim | UF do registro | `SP` |
+| `cidade` | Texto | Não | Cidade do registro | `SÃO PAULO` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `1234567` |
 
 ### Resposta
 
 | Parâmetro | Tipo | Descrição | Exemplo |
 | --- | --- | --- | --- |
-| `uf` | Texto | UF do CRF | `SP` |
+| `uf` | Texto | UF do registro | `SP` |
 | `numero_registro` | Texto | Número do registro | `1234567` |
 | `categoria` | Texto | Categoria do profissional | `FARMACÊUTICO` |
-| `nome_razao_social` | Texto | Nome ou razão social do profissional | `JOÃO DA SILVA` |
+| `nome_razao_social` | Texto | Nome do profissional | `JOÃO DA SILVA` |
 | `situacao` | Texto | Situação do registro | `DEFINITIVO` |
 | `cidade` | Texto | Cidade do registro | `SÃO PAULO` |
 | `data_inscricao` | Texto | Data de inscrição (YYYY-MM-DD) | `2025-08-29` |
