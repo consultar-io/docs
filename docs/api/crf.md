@@ -25,7 +25,7 @@ Consulta detalhes de um registro específico.
 | Parâmetro | Tipo | Obrigatório | Descrição | Exemplo |
 | --- | --- | --- | --- | --- |
 | `uf` | Texto | Sim | UF do registro | `SP` |
-| `cidade` | Texto | Não | Cidade do registro | `SÃO PAULO` |
+| `cidade` | Texto | Sim | Cidade do registro | `SÃO PAULO` |
 | `numero_registro` | Texto | Sim | Número do registro (até 7 dígitos, zeros à esquerda são removidos) | `1234567` |
 
 ### Resposta
