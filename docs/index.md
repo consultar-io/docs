@@ -50,8 +50,6 @@ Consulte a documentação de cada API para mais informações.
     - Buscar CRBM (Buscar pelo Nome)
 - [API CRF](./api/crf.md)
     - Consultar CRF (Consultar pelo CRF)
-- [API CRP](./api/crp.md)
-    - Consultar CRP (Consultar pelo CRP)
 
 ### Em Depreciação
 

@@ -57,7 +57,6 @@ plugins:
         "cro.md": "api/cro.md"
         "crbm.md": "api/crbm.md"
         "crf.md": "api/crf.md"
-        "crp.md": "api/crp.md"
         "endpoints/cnpj.md": "api/cnpj.md"
         "endpoints/cpf.md": "api/cpf.md"
         "endpoints/inscricao-estadual.md": "api/inscricao-estadual.md"
@@ -69,7 +68,6 @@ plugins:
         "endpoints/cro.md": "api/cro.md"
         "endpoints/crbm.md": "api/crbm.md"
         "endpoints/crf.md": "api/crf.md"
-        "endpoints/crp.md": "api/crp.md"
         "endpoints/index.md": "index.md"
         "api/index.md": "index.md"
         "ambientes.md": "index.md"
@@ -87,7 +85,6 @@ nav:
       - API CRO: api/cro.md
       - API CRBM: api/crbm.md
       - API CRF: api/crf.md
-      - API CRP: api/crp.md
   - Depreciação:
       - API Inscrição Estadual (v1): depreciacao/v1/inscricao-estadual.md
       - API CEP (v1): depreciacao/v1/cep.md
