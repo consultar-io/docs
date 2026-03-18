@@ -12,6 +12,10 @@ keywords: API, Web Service, REST, JSON, CPF, Pessoa Física, Consulta, API, Bras
 
 Esta API permite consultar informações sobre pessoas físicas registradas no Cadastro de Pessoas Físicas (CPF) do Brasil.
 
+## Lei nº 15.211/2025 - ECA Digital
+
+Utilize nossos dados como parte de um fluxo robusto de verificação de idade. Integre nossa solução a outras soluções de autenticação e biometria para atender aos requisitos da Lei nº 15.211/2025, conhecida como "ECA Digital", que exige a verificação de idade para acesso a conteúdos e serviços online destinados a menores de 18 anos.
+
 ## API Consultar CPF (Consultar pelo CPF)
 
 Consulta detalhes de um CPF específico.
