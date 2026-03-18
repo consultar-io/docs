@@ -26,7 +26,7 @@ Consulte a documentação de cada API para mais informações.
 
 - [API CNPJ](./api/cnpj.md)
     - Consultar CNPJ (Consultar pelo CNPJ)
-- [API CPF](./api/cpf.md)
+- [API CPF + Data de Nascimento](./api/cpf.md)
     - Consultar CPF (Consultar pelo CPF)
 - [API Inscrição Estadual](./api/inscricao-estadual.md)
     - Consultar IE por UF (Consultar pelo CNPJ ou CPF)
