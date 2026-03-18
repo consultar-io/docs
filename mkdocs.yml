@@ -76,7 +76,7 @@ nav:
   - Autenticação: autenticacao.md
   - APIs:
       - API CNPJ: api/cnpj.md
-      - API CPF: api/cpf.md
+      - API CPF + Data de Nascimento: api/cpf.md
       - API Inscrição Estadual: api/inscricao-estadual.md
       - API Inscrição Municipal: api/inscricao-municipal.md
       - API CEP: api/cep.md
