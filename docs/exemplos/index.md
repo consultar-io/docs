@@ -6,7 +6,7 @@ keywords: Exemplos, Código, API, Webservice, Web Service, Integração, Consult
 
 # Exemplos
 
-Acesse o repositório **[consultar-io/api](https://github.com/consultar-io/api)**
+Acesse o repositório **[consultar-io/api](https://github.com/consultar-io/exemplos-api)**
 no **GitHub** para ver os exemplos do uso da API do **Consultar.IO**.
 
 ## Exemplos

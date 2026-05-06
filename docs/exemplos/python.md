@@ -10,8 +10,8 @@ Exemplos do uso da API do [Consultar.IO](https://consultar.io/?utm_source=docs&u
 
 ## Exemplos
 
-- [Exemplo CNPJ](https://github.com/consultar-io/api/blob/main/python/cnpj.py) (cnpj.py)
-- [Exemplo CPF](https://github.com/consultar-io/api/blob/main/python/cpf.py) (cpf.py)
+- [Exemplo CNPJ](https://github.com/consultar-io/exemplos-api/blob/main/python/cnpj.py) (cnpj.py)
+- [Exemplo CPF](https://github.com/consultar-io/exemplos-api/blob/main/python/cpf.py) (cpf.py)
 
 ## Requisitos
 
