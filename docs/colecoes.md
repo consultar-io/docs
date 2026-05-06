@@ -36,7 +36,7 @@ Clique no botão ou faça o clone do [repositório](https://github.com/consultar
 
 # OpenCollection
 
-Clique no botão ou faça o clone do [repositório](https://github.com/consultar-io/opencollection).
+Faça o clone do [repositório](https://github.com/consultar-io/opencollection).
 
 ## OpenAPI
 
