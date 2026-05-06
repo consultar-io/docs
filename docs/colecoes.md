@@ -20,7 +20,7 @@ Temos coleções para as APIs do Consultar.IO em diferentes formatos para facili
 
 Clique no botão ou acesse a coleção no Postman: [https://www.postman.com/consultar-io/apis-consultar-io/](https://www.postman.com/consultar-io/apis-consultar-io/overview)
 
-Você também pode fazer o download do [APIs.postman_collection.json](https://github.com/consultar-io/postman/blob/main/APIs.postman_collection.json) e importe a coleção.
+Você também pode fazer o download do [postman_collection.json](https://github.com/consultar-io/postman/blob/main/APIs.postman_collection.json) e importe a coleção.
 
 ## Insomnia
 
