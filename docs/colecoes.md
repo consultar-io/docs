@@ -32,11 +32,11 @@ Clique no botão ou faça o download do [insomnia.yaml](https://github.com/consu
 
 [<img src="/assets/images/bruno.svg" alt="Fetch in Bruno">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
 
-Clique no botão ou faça o clone do repositório [repositório](https://github.com/consultar-io/opencollection) e abra o repositório no [Bruno](https://www.usebruno.com/).
+Clique no botão ou faça o clone do [repositório](https://github.com/consultar-io/opencollection) e abra o repositório no [Bruno](https://www.usebruno.com/).
 
 # OpenCollection
 
-Clique no botão ou faça o clone do repositório [repositório](https://github.com/consultar-io/opencollection).
+Clique no botão ou faça o clone do [repositório](https://github.com/consultar-io/opencollection).
 
 ## OpenAPI
 
