@@ -6,7 +6,7 @@ keywords: Python, Exemplos, Código, API, Webservice, Web Service, Integração,
 
 # Exemplos em Python
 
-Exemplos do uso da API do Consultar.IO em **Python**.
+Exemplos do uso da API do Consultar.IO em Python.
 
 ## Exemplos
 
