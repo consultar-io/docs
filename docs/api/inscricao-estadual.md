@@ -503,4 +503,4 @@ Verifique o timeout padrão da sua implantação, pois ele pode ser menor do que
 
 ## Termos de Uso
 
-Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
+Consulte os Termos de Uso em: [Termos de Uso](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=inscricao-estadual)

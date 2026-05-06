@@ -73,8 +73,8 @@ Consulte a documentação de [Suporte](./suporte.md) para mais informações sob
 
 ## Termos de Uso
 
-Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
+Consulte os Termos de Uso em: [Termos de Uso](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=index)
 
 ## Política de Privacidade
 
-Consulte a Política de Privacidade em: [https://consultar.io/privacidade/](https://consultar.io/politica-de-privacidade/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
+Consulte a Política de Privacidade em: [Política de Privacidade](https://consultar.io/politica-de-privacidade/?utm_source=docs&utm_medium=referral&utm_campaign=index)

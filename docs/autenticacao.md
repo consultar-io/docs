@@ -12,7 +12,7 @@ Todas as APIs requerem autenticação usando Autenticação por Token.
 
 Para obter um token de autenticação:
 
-1. Acesse a página: [https://consultar.io/painel/token/](https://consultar.io/painel/token/?utm_source=docs&utm_medium=referral&utm_campaign=link)
+1. Acesse a página: [Meu Token de API](https://consultar.io/painel/token/?utm_source=docs&utm_medium=referral&utm_campaign=autenticacao)
 2. Clique no botão `Criar Token`
 3. Copie o token gerado e guarde-o em um local seguro, pois ele não será exibido novamente.
 
@@ -29,4 +29,4 @@ O token deve ser enviado no cabeçalho `Authorization` da requisição:
 
 ## Termos de Uso
 
-Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
+Consulte os Termos de Uso em: [Termos de Uso](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=autenticacao)

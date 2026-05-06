@@ -6,4 +6,4 @@
 
 [<img src="docs/assets/images/bruno.svg" alt="Fetch in Bruno">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
 
-Acesse a documentação completa em: [https://docs.consultar.io/](https://docs.consultar.io/?utm_source=github&utm_medium=readme&utm_campaign=docs)
+Acesse a documentação completa em: [docs.consultar.io](https://docs.consultar.io/?utm_source=github&utm_medium=readme&utm_campaign=docs)
