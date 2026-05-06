@@ -34,7 +34,7 @@ Clique no botão ou faça o download do [insomnia.yaml](https://github.com/consu
 
 Clique no botão ou faça o clone do [repositório](https://github.com/consultar-io/opencollection) e abra o repositório no [Bruno](https://www.usebruno.com/).
 
-# OpenCollection
+## OpenCollection
 
 Faça o clone do [repositório](https://github.com/consultar-io/opencollection).
 
