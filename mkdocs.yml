@@ -75,10 +75,6 @@ nav:
   - Introdução: index.md
   - Teste grátis: teste-gratis.md
   - Coleção do Postman: postman.md
-  - Exemplos:
-      - exemplos/index.md
-      - Python: exemplos/python.md
-  - Suporte: suporte.md
   - Autenticação: autenticacao.md
   - APIs:
       - API CNPJ: api/cnpj.md
@@ -91,6 +87,10 @@ nav:
       - API CRO: api/cro.md
       - API CRBM: api/crbm.md
       - API CRF: api/crf.md
+  - Exemplos:
+    - exemplos/index.md
+    - Python: exemplos/python.md
+  - Suporte: suporte.md
 extra:
   social:
     - icon: fontawesome/brands/github
