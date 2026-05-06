@@ -63,10 +63,6 @@ Consulte a documentação de cada API para mais informações.
 - [API CRF](./api/crf.md)
     - Consultar CRF (Consultar pelo CRF)
 
-## Termos de Uso
-
-Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
-
 ## Exemplos
 
 Consulte a documentação de [Exemplos](./exemplos/index.md) para mais informações sobre os exemplos de uso das APIs.
@@ -74,3 +70,11 @@ Consulte a documentação de [Exemplos](./exemplos/index.md) para mais informaç
 ## Suporte
 
 Consulte a documentação de [Suporte](./suporte.md) para mais informações sobre o suporte ao uso das APIs.
+
+## Termos de Uso
+
+Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
+
+## Política de Privacidade
+
+Consulte a Política de Privacidade em: [https://consultar.io/privacidade/](https://consultar.io/politica-de-privacidade/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
