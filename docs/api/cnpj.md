@@ -6,11 +6,11 @@ keywords: API, Webservice, Web Service, REST, JSON, CNPJ, Empresa, Estabelecimen
 
 # API CNPJ
 
-[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman">](https://god.gw.postman.com/run-collection/49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49%26entityType%3Dcollection%26workspaceId%3Daff38029-3b6a-4292-a751-b410e14cec19)
+[<img src="../../assets/images/postman.svg" alt="Run In Postman">](https://god.gw.postman.com/run-collection/49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49%26entityType%3Dcollection%26workspaceId%3Daff38029-3b6a-4292-a751-b410e14cec19)
 
-[<img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">](https://insomnia.rest/run/?label=APIs%20Consultar.IO&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fconsultar-io%2Finsomnia%2Frefs%2Fheads%2Fmain%2Finsomnia.yaml)
+[<img src="../../assets/images/insomnia.svg" alt="Run in Insomnia">](https://insomnia.rest/run/?label=APIs%20Consultar.IO&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fconsultar-io%2Finsomnia%2Frefs%2Fheads%2Fmain%2Finsomnia.yaml)
 
-[<img src="https://fetch.usebruno.com/button.svg" alt="Fetch in Bruno">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
+[<img src="/assets/images/bruno.svg" alt="Fetch in Bruno">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
 
 ## Introdução
 
