@@ -13,3 +13,7 @@ Esta API permite consultar informações sobre Inscrições Municipais na Prefei
 !!! warning "Em Beta"
 
     Essa API está em Beta, entre em contato com o [Suporte](../suporte.md) para solicitar acesso.
+
+## Termos de Uso
+
+Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)

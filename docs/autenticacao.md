@@ -22,7 +22,11 @@ O token deve ser enviado no cabeçalho `Authorization` da requisição:
 
 `Authorization: Token <seu-token>`
 
-## Limites e Considerações
+## Considerações
 
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
+
+## Termos de Uso
+
+Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)

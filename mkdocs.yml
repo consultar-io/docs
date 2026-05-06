@@ -74,12 +74,12 @@ plugins:
 nav:
   - Introdução: index.md
   - Teste grátis: teste-gratis.md
-  - Autenticação: autenticacao.md
   - Coleção do Postman: postman.md
   - Exemplos:
       - exemplos/index.md
       - Python: exemplos/python.md
   - Suporte: suporte.md
+  - Autenticação: autenticacao.md
   - APIs:
       - API CNPJ: api/cnpj.md
       - API CPF + Data de Nascimento: api/cpf.md

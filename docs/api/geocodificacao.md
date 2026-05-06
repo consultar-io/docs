@@ -158,3 +158,7 @@ Verifique o timeout padrão da sua implantação, pois ele pode ser menor do que
 - Todas as requisições são registradas no histórico de transações
 - O token de autenticação deve ser mantido em segurança
 - Em caso de comprometimento do token, entre em contato com o Suporte
+
+## Termos de Uso
+
+Consulte os Termos de Uso em: [https://consultar.io/termos/](https://consultar.io/termos/?utm_source=docs&utm_medium=referral&utm_campaign=teste-gratis)
