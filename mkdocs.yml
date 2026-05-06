@@ -73,7 +73,13 @@ plugins:
         "ambientes.md": "index.md"
 nav:
   - Introdução: index.md
+  - Teste grátis: teste-gratis.md
   - Autenticação: autenticacao.md
+  - Coleção do Postman: postman.md
+  - Exemplos:
+      - exemplos/index.md
+      - Python: exemplos/python.md
+  - Suporte: suporte.md
   - APIs:
       - API CNPJ: api/cnpj.md
       - API CPF + Data de Nascimento: api/cpf.md
@@ -85,12 +91,6 @@ nav:
       - API CRO: api/cro.md
       - API CRBM: api/crbm.md
       - API CRF: api/crf.md
-  - Teste grátis: teste-gratis.md
-  - Coleção do Postman: postman.md
-  - Exemplos:
-      - exemplos/index.md
-      - Python: exemplos/python.md
-  - Suporte: suporte.md
 extra:
   social:
     - icon: fontawesome/brands/github
