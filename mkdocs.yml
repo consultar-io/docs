@@ -71,10 +71,15 @@ plugins:
         "endpoints/index.md": "index.md"
         "api/index.md": "index.md"
         "ambientes.md": "index.md"
+        "postman.md": "colecoes.md"
+        "insomnia.md": "colecoes.md"
+        "bruno.md": "colecoes.md"
+        "opencollection.md": "colecoes.md"
+        "openapi.md": "colecoes.md"
 nav:
   - Introdução: index.md
   - Teste grátis: teste-gratis.md
-  - Coleção do Postman: postman.md
+  - Coleções: colecoes.md
   - Autenticação: autenticacao.md
   - APIs:
       - API CNPJ: api/cnpj.md

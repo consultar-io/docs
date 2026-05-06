@@ -1,7 +1,7 @@
 ---
 title: Coleções
-description: Coleção do Postman para as APIs do Consultar.IO
-keywords: Postman, Coleção, API, Webservice, Web Service, REST, JSON, CNPJ, CPF, CEP, Inscrição Estadual, Inscrição Municipal, Geocodificação, CRM, CRO, CRBM, CRF, Consulta, Brasil
+description: Coleção do Postman, Insomnia, Bruno (OpenCollection) e OpenAPI para as APIs do Consultar.IO
+keywords: Postman, Insomnia, Bruno, OpenCollection, OpenAPI, Coleção, Coleções, API, Webservice, Web Service, REST, JSON, CNPJ, CPF, CEP, Inscrição Estadual, Inscrição Municipal, Geocodificação, CRM, CRO, CRBM, CRF, Consulta, Brasil
 ---
 
 # Coleções
@@ -11,6 +11,7 @@ Temos coleções para as APIs do Consultar.IO em diferentes formatos para facili
 - [Postman](#postman)
 - [Insomnia](#insomnia)
 - [Bruno (OpenCollection)](#bruno-opencollection)
+- [OpenAPI](#openapi)
 
 ## Postman
 
@@ -20,17 +21,13 @@ Clique no botão ou acesse a coleção no Postman: [https://www.postman.com/cons
 
 Você também pode fazer o download do [APIs.postman_collection.json](https://github.com/consultar-io/postman/blob/main/APIs.postman_collection.json) e importar a coleção.
 
-## Outras Coleções
-
-Outras coleções para as APIs do Consultar.IO:
-
-### Insomnia
+## Insomnia
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=APIs%20Consultar.IO&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fconsultar-io%2Finsomnia%2Frefs%2Fheads%2Fmain%2Finsomnia.yaml)
 
 Clique no botão ou faça o download do [insomnia.yaml](https://github.com/consultar-io/insomnia/blob/main/insomnia.yaml) e importe a coleção no [Insomnia](https://insomnia.rest/).
 
-## Bruno (OpenCollection)
+## Bruno
 
 [<img src="https://fetch.usebruno.com/button.svg" alt="Fetch in Bruno" style="width: 130px; height: 30px;" width="128" height="32">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
 
