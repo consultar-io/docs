@@ -1,6 +1,6 @@
 # Teste grátis
 
-Faça seu cadastro e receba **R$ 5,00** em créditos válidos por **1 ano** para você consultar no Consultar.IO
+Faça seu cadastro e receba **R$ 5,00** em créditos válidos por **1 ano** para você consultar no Consultar.IO.
 
 ## Como fazer o cadastro?
 
