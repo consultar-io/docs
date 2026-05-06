@@ -182,13 +182,13 @@ curl -X GET 'https://consultar.io/api/v1/cnpj/consultar?cnpj=42515236000100' -H 
   "uf": "SP",
   "municipio_codigo": "7107",
   "municipio_descricao": "SAO PAULO",
-  "ddd1": "41",
-  "telefone1": "96869828",
+  "ddd1": "11",
+  "telefone1": "50285088",
   "ddd2": "",
   "telefone2": "",
   "ddd_fax": "",
   "fax": "",
-  "email": "meucnpj@contabilizei.com.br",
+  "email": "expanda.duplicate689@aleeas.com",
   "lista_qsa": [
     {
       "tipo_qsa_codigo": "2",
