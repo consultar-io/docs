@@ -8,6 +8,10 @@ keywords: API, Webservice, Web Service, REST, JSON, CNPJ, Empresa, Estabelecimen
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D49657121-67b8bdd6-d2a3-4670-919d-23be3058fa49%26entityType%3Dcollection%26workspaceId%3Daff38029-3b6a-4292-a751-b410e14cec19)
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=APIs%20Consultar.IO&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fconsultar-io%2Finsomnia%2Frefs%2Fheads%2Fmain%2Finsomnia.yaml)
+
+[<img src="https://fetch.usebruno.com/button.svg" alt="Fetch in Bruno" style="width: 130px; height: 30px;" width="128" height="32">](https://fetch.usebruno.com?url=https%3A%2F%2Fgithub.com%2Fconsultar-io%2Fbruno.git)
+
 ## Introdução
 
 Esta API permite consultar e buscar informações sobre empresas e estabelecimentos registrados no Cadastro Nacional de Pessoa Jurídica (CNPJ).
