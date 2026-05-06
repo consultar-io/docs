@@ -85,6 +85,8 @@ nav:
       - API CRO: api/cro.md
       - API CRBM: api/crbm.md
       - API CRF: api/crf.md
+  - Teste grátis: teste-gratis.md
+  - Coleção do Postman: postman.md
   - Exemplos:
       - exemplos/index.md
       - Python: exemplos/python.md
